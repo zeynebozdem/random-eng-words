@@ -1,12 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
- import SampleComponent from './components/SampleComponent/SampleComponent'
+import Word from './components/word/word'
 
 function App() {
   return (
     <div className="App">
-      <SampleComponent/>
+      <Word/>
     </div>
   );
 }
