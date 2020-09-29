@@ -5,7 +5,7 @@
  - React
  - Sass
 
-Project available on 
+Project available on https://random-eng-words.vercel.app/
 
 **Installation and Setup Instructions**
 
