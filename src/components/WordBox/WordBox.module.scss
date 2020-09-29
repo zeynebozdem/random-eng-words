@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&display=swap');
+.wordBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 35vh auto;
+    animation: easeContent 0.5s ease-in-out;
+    h1{
+        font-family: 'Averia Serif Libre', cursive;
+        font-size: 100px;
+        font-weight: 300;
+        letter-spacing: 0.01em;
+        line-height: 48px;
+        a{
+            text-decoration: none;
+        }
+    }
+}
+@keyframes easeContent{
+    0%{
+        opacity: 0;
+    }100%{
+        opacity: 1;
+    }
+}
