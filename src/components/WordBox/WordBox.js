@@ -4,9 +4,6 @@ import styles from './WordBox.module.scss'
 import data from '../../data/words.json'
 
 const wordData = data;
-const randomNumber = Math.floor(Math.random() * 6);
-const randomWord = wordData[randomNumber].word;
-
 class WordBox extends Component {
     render() { 
         const wordColor = this.props.color;
