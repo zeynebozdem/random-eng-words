@@ -16,7 +16,7 @@ class WordBox extends Component {
             <div className={styles.wordBox}>
                 <h1>
                     <a style={{color:wordColor}} href={`https://translate.google.com/?sl=en&tl=ar#view=home&op=translate&sl=en&tl=tr&text=${randomWord}`} target="_blank">{randomWord}</a>
-                    <FontAwesomeIcon icon={faRedoAlt}/>
+                    <FontAwesomeIcon style={{color:wordColor}} icon={faRedoAlt}/>
                 </h1>
             </div>
          );
