@@ -2,28 +2,182 @@
   
    [
     {
-        "id":1,
         "word": "drastic" 
     },
     {
-        "id":2,
         "word": "editor" 
     },
     {
-        "id":3,
         "word": "vaccine" 
     },
     {
-        "id":4,
         "word": "bake" 
     },
     {
-        "id":5,
         "word": "struggle" 
     },
     {
-        "id":6,
         "word": "entertainment" 
+    },
+    {
+        "word": "flavor" 
+    },
+    {
+        "word": "ingredient" 
+    },
+    {
+        "word": "reminder" 
+    },
+    {
+        "word": "democracy" 
+    },
+    {
+        "word": "movement" 
+    },
+    {
+        "word": "round" 
+    },
+    {
+        "word": "give away" 
+    },
+    {
+        "word": "in the long term" 
+    },
+    {
+        "word": "lottery" 
+    },
+    {
+        "word": "tuberculosis" 
+    },
+    {
+        "word": "patient" 
+    },
+    {
+        "word": "review" 
+    },
+    {
+        "word": "rating" 
+    },
+    {
+        "word": "acid" 
+    },
+    {
+        "word": "glorify" 
+    },
+    {
+        "word": "violence" 
+    },
+    {
+        "word": "suspend" 
+    },
+    {
+        "word": "competency" 
+    },
+    {
+        "word": "drop to" 
+    },
+    {
+        "word": "due to" 
+    },
+    {
+        "word": "quarantine" 
+    },
+    {
+        "word": "spread" 
+    },
+    {
+        "word": "meditation" 
+    },
+    {
+        "word": "creative" 
+    },
+    {
+        "word": "outbreak" 
+    },
+    {
+        "word": "make sense of" 
+    },
+    {
+        "word": "have had to" 
+    },
+    {
+        "word": "crisis" 
+    },
+    {
+        "word": "non-profit" 
+    },
+    {
+        "word": "support" 
+    },
+    {
+        "word": "had had to" 
+    },
+    {
+        "word": "instution" 
+    },
+    {
+        "word": "earning" 
+    },
+    {
+        "word": "resilience" 
+    },
+    {
+        "word": "cope" 
+    },
+    {
+        "word": "in touch" 
+    },
+    {
+        "word": "wonder" 
+    },
+    {
+        "word": "flawlessly" 
+    },
+    {
+        "word": "engine" 
+    },
+    {
+        "word": "operate" 
+    },
+    {
+        "word": "commerical" 
+    },
+    {
+        "word": "quest" 
+    },
+    {
+        "word": "autism" 
+    },
+    {
+        "word": "subtle" 
+    },
+    {
+        "word": "portray" 
+    },
+    {
+        "word": "familiar" 
+    },
+    {
+        "word": "emphaty" 
+    },
+    {
+        "word": "normalize" 
+    },
+    {
+        "word": "reputation" 
+    },
+    {
+        "word": "maintanance" 
+    },
+    {
+        "word": "liability" 
+    },
+    {
+        "word": "destruction" 
+    },
+    {
+        "word": "shortage" 
     }
+
 ]
 
