@@ -43,10 +43,11 @@ class App extends Component {
       this.colorPalettes(this.state.randomPaletteNumber);
   }
   render() { 
-    return ( 
+    return (
       <div style={{backgroundColor:this.state.bodyBgColor}}>
-        <WordBox color={this.state.wordBgColor}/>
+         <WordBox color={this.state.wordBgColor}/>
       </div>
+      
      );
   }
 }

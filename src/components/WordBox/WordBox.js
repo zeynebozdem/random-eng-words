@@ -10,13 +10,21 @@ const wordData = data;
 const randomNumber = Math.floor(Math.random() * wordData.length);
 const randomWord = wordData[randomNumber].word;
 class WordBox extends Component {
+    constructor(props) {
+        super(props);
+        this.onRefresh = this.onRefresh.bind(this);
+      }
+    onRefresh(){
+        window.location.reload();
+    }
     render() { 
+        document.body.style = `background-color : ${this.props.color}`
         const wordColor = this.props.color;
         return ( 
             <div className={styles.wordBox}>
                 <h1>
                     <a style={{color:wordColor}} href={`https://translate.google.com/?sl=en&tl=ar#view=home&op=translate&sl=en&tl=tr&text=${randomWord}`} target="_blank">{randomWord}</a>
-                    <FontAwesomeIcon style={{color:wordColor}} icon={faRedoAlt}/>
+                    <FontAwesomeIcon style={{color:wordColor}} icon={faRedoAlt} onClick={this.onRefresh}/>
                 </h1>
             </div>
          );
