@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.module.scss';
 import WordBox from './components/WordBox/WordBox'
 
