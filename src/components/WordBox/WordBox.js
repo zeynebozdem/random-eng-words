@@ -23,7 +23,7 @@ class WordBox extends Component {
         return ( 
             <div className={styles.wordBox}>
                 <h1>
-                    <a style={{color:wordColor}} href={`https://translate.google.com/?sl=en&tl=ar#view=home&op=translate&sl=en&tl=tr&text=${randomWord}`} target="_blank">{randomWord}</a>
+                    <a style={{color:wordColor}} href={`https://translate.google.com/?hl=tr&ui=tob&sl=en&tl=tr&text=${randomWord}&op=translate`} target="_blank">{randomWord}</a>
                     <FontAwesomeIcon style={{color:wordColor}} icon={faRedoAlt} onClick={this.onRefresh}/>
                 </h1>
             </div>
